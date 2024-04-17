@@ -19,9 +19,9 @@
 - [Advanced Types](#advanced-types)
   - [Type Aliases](#type-aliases)
   - [Union Types](#union-types)
-  - [Intersection Types](#intersection-types)
-  - [Literal Types](#literal-types)
-  - [Nullable Types](#nullable-types)
+  - [Interal Types](#literal-types)
+  - [Nulersection Types](#intersection-types)
+  - [Litlable Types](#nullable-types)
   - [Optional Chaining](#chaining)
 
 
