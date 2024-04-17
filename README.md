@@ -22,7 +22,7 @@
   - [Intersection Types](#intersection-types)
   - [Literal Types](#literal-types)
   - [Nullable Types](#nullable-types)
-  - [Optional Chaining](#optional-chaining)
+  - [Optional Chaining](#chaining)
 
 
 # introduction
@@ -96,3 +96,34 @@ TypeScript have any, unknown, never, enum, tuple .
 
 lets see how to interact with premetive type:-
 
+# advanced-types
+
+1. Type aliases
+2. Unions and Intersections
+3. Type narrowing
+4. Nullable Types
+
+# type-aliases
+
+
+Type aliases in TypeScript provide a way to create custom names for types. They are particularly useful for defining complex types or types that are used repeatedly throughout your code.
+
+# union-types
+
+Union types in TypeScript allow you to declare a type that can be one of several possible types. This provides flexibility in handling different types of data within your code. 
+
+# intersection-types
+
+Intersection types in TypeScript allow you to combine multiple types into one. This creates a new type that has all the properties and methods of each constituent type.
+
+# literal-type
+
+Literal types in TypeScript allow you to specify exact values that a variable can have. Unlike traditional types that represent a range of possible values, literal types represent specific, concrete values.
+
+# nullable-types
+
+TypeScript does not have nullable types per se, it provides "strict null checks" to help catch errors related to null and undefined values during compile time. By using union types with null or undefined, developers can explicitly handle nullable values in their code.
+
+# chaining
+
+Chaining, in the context of programming, refers to a practice where multiple method calls or property accesses are chained together in a single expression. This allows you to perform a sequence of operations on an object or value in a concise and readable manner.
